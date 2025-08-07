@@ -20,8 +20,6 @@ const App = () => {
                     <Route path="/webd" element={<Webd />} />
                     <Route path="/port" element={<Port />} />
                     <Route path="/port/:id" element={<PortDetail />} />
-                    {/* 상세페이지 라우트 추가 */}
-                    <Route path="*" element={<Not />} />
                 </Routes>
             </Suspense>
         </BrowserRouter>

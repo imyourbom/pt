@@ -1,6 +1,6 @@
 import React, {Suspense, lazy} from 'react'
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { HashRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/section/Main';
 import PortDetail from './pages/PortDetail'
 
@@ -12,7 +12,7 @@ const Not = lazy(() => import('./pages/Not'));
 
 const App = () => {
     return (
-        <HashRouter basename="/iyb">
+        <BrowserRouter basename="/iyb">
             <Suspense fallback={<Main />}>
                 <Routes>
                     <Route path='/' element={<Home />} />
@@ -24,7 +24,7 @@ const App = () => {
                     <Route path="*" element={<Not />} />
                 </Routes>
             </Suspense>
-        </HashRouter>
+        </BrowserRouter>
 
         
     );

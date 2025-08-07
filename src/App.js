@@ -1,5 +1,5 @@
 import React, {Suspense, lazy} from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/section/Main';
 import PortDetail from './pages/PortDetail'
 
@@ -10,7 +10,7 @@ const Port = lazy(() => import('./pages/Port'));
 
 const App = () => {
     return (
-        <BrowserRouter basename="/iyb">
+        <HashRouter basename="/iyb">
             <Suspense fallback={<Main />}>
                 <Routes>
                     <Route path='/' element={<Home />} />
@@ -20,7 +20,7 @@ const App = () => {
                     <Route path="/port/:id" element={<PortDetail />} />
                 </Routes>
             </Suspense>
-        </BrowserRouter>
+        </HashRouter>
 
         
     );

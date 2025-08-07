@@ -1,6 +1,5 @@
 import React, {Suspense, lazy} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import { HashRouter, Routes, Route } from 'react-router-dom';
 import Main from './components/section/Main';
 import PortDetail from './pages/PortDetail'
 
@@ -8,7 +7,7 @@ const Home = lazy(() => import('./pages/Home'));
 const Today = lazy(() => import('./pages/Today'));
 const Webd = lazy(() => import('./pages/Webd'));
 const Port = lazy(() => import('./pages/Port'));
-const Not = lazy(() => import('./pages/Not'));
+// const Not = lazy(() => import('./pages/Not'));
 
 const App = () => {
     return (
@@ -20,6 +19,7 @@ const App = () => {
                     <Route path="/webd" element={<Webd />} />
                     <Route path="/port" element={<Port />} />
                     <Route path="/port/:id" element={<PortDetail />} />
+                    {/* <Route path="*" element={<Not />} /> */}
                 </Routes>
             </Suspense>
         </BrowserRouter>

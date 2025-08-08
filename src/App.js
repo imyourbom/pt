@@ -10,7 +10,7 @@ const Port = lazy(() => import('./pages/Port'));
 
 const App = () => {
     return (
-        <BrowserRouter basename="/iyb">
+        <BrowserRouter basename="/pt">
             <Suspense fallback={<Main />}>
                 <Routes>
                     <Route path='/' element={<Home />} />

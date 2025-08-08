@@ -51,7 +51,7 @@ const PortSlider = ({ id, title, videos }) => {
                         <SwiperSlide key={key}>
                             <div className="video">
                                 <div className="video__thumb play__icon">
-                                    <Link to={`/video/${video.videoId}`}>
+                                    <Link to={`/port/${key}`}>
                                         <img src={video.img} alt={video.title} />
                                     </Link>
                                 </div>

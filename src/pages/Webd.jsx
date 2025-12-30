@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
 
-import { webdText } from '../data/webd'
+// import { webdText } from '../data/webd'
 
 const Webd = () => {
     const [loading, setLoading] = useState(true); 
@@ -27,7 +27,7 @@ const Webd = () => {
                         <div>
                             <div>
                                 <h3 className="resume-title">Resume</h3>
-                                <h4 className="resume-subTitle">※ 경력: 총 6년차 / 비고: 회사 법인명 변경 및 인수합병 등으로 인하여 3개의 회사 (인더핸즈, 시즐, 플레이포인트랩) 가 같은 회사임을 명시합니다</h4>
+                                <h4 className="resume-subTitle">※ 경력: 총 5년차 / 비고: 회사 법인명 변경 및 인수합병 등으로 인하여 3개의 회사 (인더핸즈, 시즐, 플레이포인트랩) 가 같은 회사임을 명시합니다</h4>
                                 <div className="resume-item">
                                     <h4>아이웍스인터렉티브</h4>
                                     <h5>2024.08.01 - 재직중</h5>

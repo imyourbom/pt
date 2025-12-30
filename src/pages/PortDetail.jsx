@@ -30,6 +30,7 @@ const PortfolioDetail = () => {
                         </a>
                     )}
                 </p>
+                <p>{item.hover?.desc}</p>
             </div>
         </section>
     )

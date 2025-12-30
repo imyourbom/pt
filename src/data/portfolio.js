@@ -8,7 +8,7 @@ import port06 from "../assets/img/port/portfolio-9.jpg";
 import port07 from "../assets/img/port/portfolio-8.jpg";
 import port08 from "../assets/img/port/portfolio-7.jpg";
 import port09 from "../assets/img/port/portfolio-6.jpg";
-import port10 from "../assets/img/port/portfolio-5.jpg";
+// import port10 from "../assets/img/port/portfolio-5.jpg";
 import port11 from "../assets/img/port/portfolio-4.jpg";
 import port12 from "../assets/img/port/portfolio-3.jpg";
 import port13 from "../assets/img/port/portfolio-16.jpg";
@@ -141,10 +141,52 @@ import detail84 from "../assets/img/port/sub-detail03-2.png";
 //한국생활가이드북
 import detail85 from "../assets/img/port/detail29-1.png";
 import detail86 from "../assets/img/port/detail29-2.png";
-
+// arex 공항철도 직통열차
+import detail87 from "../assets/img/port/detail30-1.jpg";
+import detail88 from "../assets/img/port/detail30-2.jpg";
+import detail89 from "../assets/img/port/detail30-3.jpg";
+import detail90 from "../assets/img/port/detail30-4.jpg";
+import detail91 from "../assets/img/port/detail30-5.jpg";
+// arex 공항철도 기업누리집
+import detail92 from "../assets/img/port/detail31-1.jpg";
+import detail93 from "../assets/img/port/detail31-2.jpg";
 
 
 export const portfolioText = [
+    {
+        title: "30. AREX 공항철도 직통열차(웹접근성)",
+        img: detail87,
+        imgs: [detail87, detail88, detail89, detail90, detail91],
+        author: "담당업무: 퍼블리싱(리뉴얼)",
+        date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+        
+        hover: {
+            title: "30. AREX 공항철도 열차(웹접근성)",
+            role: "담당업무: 서브페이지 퍼블리싱 / 작업 기여도: 50% / 웹접근성 마크 획득: O",
+            date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+            site: "https://www.airportrailroad.com/",
+            detailPage: "/portfolio-details30",
+            worker: '참여인원: 3명(PL 1명, PA 2명)',
+            desc: '프로젝트 설명: 퍼블리싱팀의 PL님께서 먼저 공통 가이드 1차를 잡아주시는 동안, PA가 메인페이지, Header, Footer등의 공통 부분을 작업이 진행됩니다. 그리고 서브페이지 작업이 들어갑니다. 퍼블리싱은 GULP(Node.js 기반의 웹 개발 자동화 도구)로 파일리스트 관리 및 서버 관리를 진행하고, SCSS로 작업을 진행합니다. 저는 이 프로젝트에서 서브페이지와 Header와 전체적인 모바일, 번역(한국어,영어,일어,간체,번체)을 맡게 되었고, 사이트 2026년 1월 오픈 후에는 웹접근성 마크 획득을 위한 작업이 2차까지 진행 될 예정입니다.'
+        }
+    },
+    {
+        title: "29. AREX 공항철도 기업누리집",
+        img: detail92,
+        imgs: [detail92, detail93],
+        author: "담당업무: 퍼블리싱(리뉴얼)",
+        date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+        
+        hover: {
+            title: "29. AREX 공항철도 기업누리집(웹접근성)",
+            role: "담당업무: 메인페이지 퍼블리싱(서브 제외) / 작업 기여도: 100% / 웹접근성 마크 획득: O",
+            date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+            site: "https://www.arex.or.kr/main.do",
+            detailPage: "/portfolio-details29",
+            worker: '참여인원: 1명(PA 1명)',
+            desc: '프로젝트 설명: 메인페이지만 저희 팀이 담당이었으므로 제가 메인페이지를 작업하였고, 전체 공통 부분과 메인페이지 부분과 번역(한국어,영어,일어,간체,번체)을 작업하였습니다. 사이트 2026년 1월 오픈 후에는 웹접근성 마크 획득을 위한 작업이 1차-2차까지 진행 될 예정입니다.'
+        }
+    },
     {
         title: "28. 한국생활가이드북",
         img: port28,
@@ -159,6 +201,7 @@ export const portfolioText = [
             site: "https://k-guide.kr/KOR/main.do",
             detailPage: "/portfolio-details28",
             worker: '참여인원: 4명',
+            desc: '프로젝트 설명: '
         }
     },
     {
@@ -175,6 +218,7 @@ export const portfolioText = [
             site: "http://www.bariumholdings.net/index.asp",
             detailPage: "/portfolio-details27",
             worker: '참여인원: 1명',
+            desc: '프로젝트 설명: '
         }
     },
     {
@@ -190,7 +234,7 @@ export const portfolioText = [
             date: "작업기간: 2024.11.01~2025.12.13",
             site: "https://m.kra.co.kr/main.do",
             detailPage: "/portfolio-details26",
-            worker: '참여인원: 1명',
+            worker: '참여인원: 1명(PA 1명)',
         }
     },
     {
@@ -206,7 +250,7 @@ export const portfolioText = [
             date: "작업기간: 2024.11.01~2025.05.20",
             site: "https://park.kra.co.kr/main/busan",
             detailPage: "/portfolio-details25",
-            worker: '참여인원: 4명',
+            worker: '참여인원: 4명(PL 1명, PA 3명)',
         }
     },
     {
@@ -222,7 +266,7 @@ export const portfolioText = [
             date: "작업기간: 2024.11.01~2025.05.20",
             site: "https://park.kra.co.kr/main/jeju",
             detailPage: "/portfolio-details24",
-            worker: '참여인원: 4명',
+            worker: '참여인원: 4명(PL 1명, PA 3명)',
         }
     },
     {
@@ -238,7 +282,7 @@ export const portfolioText = [
             date: "작업기간: 2024.11.01~2025.05.20",
             site: "https://park.kra.co.kr/main/seoul",
             detailPage: "/portfolio-details23",
-            worker: '참여인원: 4명',
+            worker: '참여인원: 4명(PL 1명, PA 3명)',
         }
     },
     {
@@ -254,7 +298,7 @@ export const portfolioText = [
             date: "작업기간: 2024.12.01~2025.02.10",
             site: "https://derbyon.kra.co.kr/main.do",
             detailPage: "/portfolio-details22",
-            worker: '참여인원: 2명',
+            worker: '참여인원: 2명(PL 1명, PA 1명)',
         }
     },
     {

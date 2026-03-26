@@ -102,18 +102,24 @@ import detail57 from "../assets/img/port/detail21-2.png";
 //한국건강가정진흥원 인적성 검사 3차
 
 //마사회 마권구매
+import detailBuy from "../assets/img/port/detail23-0.png";
 import detail58 from "../assets/img/port/detail23-1.png";
 import detail59 from "../assets/img/port/detail23-2.png";
+import detailBuy02 from "../assets/img/port/detail23-3.png";
+import detailBuy03 from "../assets/img/port/detail23-4.png";
 //마사회 서울
+import detailSeoul from "../assets/img/port/detail24-0.png";
 import detail60 from "../assets/img/port/detail24-1.png";
 import detail61 from "../assets/img/port/detail24-2.png";
 import detail62 from "../assets/img/port/detail24-3.png";
 import detail63 from "../assets/img/port/detail24-4.png";
 //마사회 제주
+import detailJeju from "../assets/img/port/detail25-0.png";
 import detail64 from "../assets/img/port/detail25-1.png";
 import detail65 from "../assets/img/port/detail25-2.png";
 import detail66 from "../assets/img/port/detail25-3.png";
 //마사회 부산
+import detailBusan from "../assets/img/port/detail26-0.png";
 import detail67 from "../assets/img/port/detail26-1.png";
 import detail68 from "../assets/img/port/detail26-2.png";
 import detail69 from "../assets/img/port/detail26-3.png";
@@ -142,6 +148,7 @@ import detail84 from "../assets/img/port/sub-detail03-2.png";
 import detail85 from "../assets/img/port/detail29-1.png";
 import detail86 from "../assets/img/port/detail29-2.png";
 // arex 공항철도 직통열차
+import detail94 from "../assets/img/port/detail30-0.jpg";
 import detail87 from "../assets/img/port/detail30-1.jpg";
 import detail88 from "../assets/img/port/detail30-2.jpg";
 import detail89 from "../assets/img/port/detail30-3.jpg";
@@ -150,24 +157,47 @@ import detail91 from "../assets/img/port/detail30-5.jpg";
 // arex 공항철도 기업누리집
 import detail92 from "../assets/img/port/detail31-1.jpg";
 import detail93 from "../assets/img/port/detail31-2.jpg";
-
+// 스포웰 체육인복지지원포털
+import detail95 from "../assets/img/port/detail32-1.jpg";
+import detail96 from "../assets/img/port/detail32-2.jpg";
+import detail97 from "../assets/img/port/detail32-3.jpg";
+import detail98 from "../assets/img/port/detail32-4.jpg";
+import detail99 from "../assets/img/port/detail32-5.jpg";
+import detail100 from "../assets/img/port/detail32-6.jpg";
 
 export const portfolioText = [
     {
+        title: "31. 스포웰 체육인복지지원포털(웹접근성)",
+        img: detail95,
+        imgs: [detail95, detail96, detail97, detail98, detail99, detail100],
+        author: "담당업무: 퍼블리싱(1차 리뉴얼 및 2차 고도화)",
+        date: "작업기간: 2026.01.29 - 2026.04.01",
+        
+        hover: {
+            title: "31. 스포웰 체육인복지지원포털(웹접근성)",
+            role: "담당업무: 1차 리뉴얼 및 2차 고도화 / 작업 기여도: 30% / 웹접근성 마크 획득: O",
+            date: "작업기간: 2026.01.29 - 2026.04.01",
+            site: "https://spowell.kspo.or.kr/",
+            detailPage: "/portfolio-details31",
+            worker: '참여인원: 3명(PL 1명, PA 2명)',
+            desc: '프로젝트 설명: 1차 리뉴얼 이후, 2차 고도화를 진행하였고, 프론트와 관리자 작업을 동시에 진행하였습니다. 퍼블리싱은 GULP(Node.js 기반의 웹 개발 자동화 도구)로 파일리스트 관리 및 서버 관리를 진행하고, SCSS로 작업을 진행합니다. 공공기관 프로젝트였으므로 소스는 SVN으로 따로 올려서 관리하였습니다.'
+        }
+    },    
+    {
         title: "30. AREX 공항철도 직통열차(웹접근성)",
-        img: detail87,
-        imgs: [detail87, detail88, detail89, detail90, detail91],
+        img: detail94,
+        imgs: [detail94, detail87, detail88, detail89, detail90, detail91],
         author: "담당업무: 퍼블리싱(리뉴얼)",
-        date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+        date: "작업기간: 2025.09.01 - 2026.01",
         
         hover: {
             title: "30. AREX 공항철도 열차(웹접근성)",
             role: "담당업무: 서브페이지 퍼블리싱 / 작업 기여도: 50% / 웹접근성 마크 획득: O",
-            date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
-            site: "https://www.airportrailroad.com/",
+            date: "작업기간: 2025.09.01 - 2026.01",
+            site: "https://www.airportrailroad.com/main",
             detailPage: "/portfolio-details30",
             worker: '참여인원: 3명(PL 1명, PA 2명)',
-            desc: '프로젝트 설명: 퍼블리싱팀의 PL님께서 먼저 공통 가이드 1차를 잡아주시는 동안, PA가 메인페이지, Header, Footer등의 공통 부분을 작업이 진행됩니다. 그리고 서브페이지 작업이 들어갑니다. 퍼블리싱은 GULP(Node.js 기반의 웹 개발 자동화 도구)로 파일리스트 관리 및 서버 관리를 진행하고, SCSS로 작업을 진행합니다. 저는 이 프로젝트에서 서브페이지와 Header와 전체적인 모바일, 번역(한국어,영어,일어,간체,번체)을 맡게 되었고, 사이트 2026년 1월 오픈 후에는 웹접근성 마크 획득을 위한 작업이 2차까지 진행 될 예정입니다.'
+            desc: '프로젝트 설명: 퍼블리싱팀의 PL님께서 먼저 공통 가이드 1차를 잡아주시는 동안, PA가 메인페이지의 작업을 진행합니다. 그리고 서브페이지 작업이 들어갑니다. 퍼블리싱은 GULP(Node.js 기반의 웹 개발 자동화 도구)로 파일리스트 관리 및 서버 관리를 진행하고, SCSS로 작업을 진행합니다. 저는 이 프로젝트에서 서브페이지와 헤더 공통, 전체적인 모바일, 전체 메뉴 등 공통 부분을 맡았고, 2026년 1월 오픈 후에 웹 접근성 마크를 획득 하였습니다.'
         }
     },
     {
@@ -175,16 +205,16 @@ export const portfolioText = [
         img: detail92,
         imgs: [detail92, detail93],
         author: "담당업무: 퍼블리싱(리뉴얼)",
-        date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+        date: "작업기간: 2025.09.01 - 2026.01",
         
         hover: {
             title: "29. AREX 공항철도 기업누리집(웹접근성)",
             role: "담당업무: 메인페이지 퍼블리싱(서브 제외) / 작업 기여도: 100% / 웹접근성 마크 획득: O",
-            date: "작업기간: 2025.09.01 - 1월 중순 오픈 예정",
+            date: "작업기간: 2025.09.01 - 2026.01",
             site: "https://www.arex.or.kr/main.do",
             detailPage: "/portfolio-details29",
             worker: '참여인원: 1명(PA 1명)',
-            desc: '프로젝트 설명: 메인페이지만 저희 팀이 담당이었으므로 제가 메인페이지를 작업하였고, 전체 공통 부분과 메인페이지 부분과 번역(한국어,영어,일어,간체,번체)을 작업하였습니다. 사이트 2026년 1월 오픈 후에는 웹접근성 마크 획득을 위한 작업이 1차-2차까지 진행 될 예정입니다.'
+            desc: '프로젝트 설명: 제가 메인페이지를 담당하였고, 전체 공통 부분과 메인페이지와 다국어(한국어,영어,일어,간체,번체)를 작업하였습니다. 사이트 2026년 1월 오픈 후에 웹 접근성 마크를 획득 하였습니다.'
         }
     },
     {
@@ -240,7 +270,7 @@ export const portfolioText = [
     {
         title: "25. 마사회 렛츠런파크 부산경남 (웹접근성)",
         img: port25,
-        imgs: [port25, detail67, detail68, detail69],
+        imgs: [port25, detailBusan, detail67, detail68, detail69],
         author: "담당업무: 퍼블리싱 (서브)",
         date: "작업기간: 2024.11.01~2025.05.20",
         
@@ -256,7 +286,7 @@ export const portfolioText = [
     {
         title: "24. 마사회 렛츠런파크 제주 (웹접근성)",
         img: port24,
-        imgs: [port24, detail64, detail65, detail66],
+        imgs: [port24, detailJeju, detail64, detail65, detail66],
         author: "담당업무: 퍼블리싱 (서브)",
         date: "작업기간: 2024.11.01~2025.05.20",
         
@@ -272,7 +302,7 @@ export const portfolioText = [
     {
         title: "23. 마사회 렛츠런파크 서울 (웹접근성)",
         img: port23,
-        imgs: [port23, detail60, detail61, detail62, detail63],
+        imgs: [port23, detailSeoul, detail60, detail61, detail62, detail63],
         author: "담당업무: 퍼블리싱 (서브)",
         date: "작업기간: 2024.11.01~2025.05.20",
         
@@ -288,7 +318,7 @@ export const portfolioText = [
     {
         title: "22. 마사회 마권구매 (웹접근성)",
         img: port22,
-        imgs: [port22, detail58, detail59],
+        imgs: [port22, detailBuy, detail58, detail59, detailBuy02, detailBuy03],
         author: "담당업무: 퍼블리싱 (서브)",
         date: "작업기간: 2024.12.01~2025.02.10",
         

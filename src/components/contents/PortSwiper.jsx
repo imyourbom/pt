@@ -8,6 +8,7 @@ const PortSwiper = ({ images, alt }) => {
     console.log('images:', images);
     return (
         <Swiper
+            autoHeight={true}
             spaceBetween={30}
             slidesPerView={1}
             pagination={{ clickable: true }}
